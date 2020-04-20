@@ -1,6 +1,6 @@
 node {
 	stage ('SCM checkout'){
-		git "https://gitlab.com/mbabilo/experitest"
+		git "https://github.com/nksid18/SalesforceDevOpsDemo"
 		}
 	stage ('Build'){
     	dir("salesforcedemo") {
